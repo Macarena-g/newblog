@@ -7,5 +7,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://macarenaguzman.github.io',
 	base: '/newblog',
+	trailingSlash: "always",
 	integrations: [mdx(), sitemap()],
 });
