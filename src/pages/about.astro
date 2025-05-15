@@ -1,37 +1,37 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+
+const heroImage = `${import.meta.env.BASE_URL}blog-placeholder-about.jpg`;
 ---
-<!doctype html>
-<html lang="en"></html>
-	<Layout
-		title="About Me"
-		description="Lorem ipsum dolor sit amet"
-		pubDate={new Date('August 08 2021')}
-		heroImage="/blog-placeholder-about.jpg"
+
+<Layout
+	title="About Me"
+	description="Lorem ipsum dolor sit amet"
+	pubDate={new Date('August 08 2021')}
+	heroImage={heroImage}
 >
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 		
-		</p>
+	</p>
 
-		<p>
-			Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
+	<p>
+		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
 		
-		</p>
+	</p>
 
-		<p>
-			Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
+	<p>
+		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
 		
-		</p>
+	</p>
 
-		<p>
-			Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
+	<p>
+		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
 		
-		</p>
+	</p>
 
-		<p>
-			Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
+	<p>
+		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
 		
-		</p>
-	</Layout>
-</html>
+	</p>
+</Layout>
