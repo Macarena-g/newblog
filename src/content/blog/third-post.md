@@ -1,7 +1,7 @@
 ---
-title: 'Third post'
+title: 'Covid-19 Data Analysis'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 22 2022'
+pubDate: 'May 22 2025'
 heroImage: '/blog-placeholder-2.jpg'
 ---
 
