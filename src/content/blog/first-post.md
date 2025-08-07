@@ -3,7 +3,7 @@ title: 'Netflix Dashboard project'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'May 22 2025'
 heroImage: '/newblog/Netflix-Data.jpg'
-layout: ../../layouts/BlogPost.astro
+layout: ../newblog/layouts/BlogPost.astro
 slug: "first-post"
 ---
 
